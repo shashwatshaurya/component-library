@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({
-  customClass,
-  variant,
-  onClick,
-  loading,
-  disable,
+  customClass = '',
+  variant = 'primary',
+  onClick = () => {},
+  loading = false,
+  disable = false,
   children,
-  size,
+  size = 'md',
   type = 'button',
   ariaLabel,
 }) => {
@@ -63,16 +63,6 @@ const Button = ({
       {children}
     </button>
   );
-};
-
-Button.defaultProps = {
-  customClass: '',
-  onClick: () => {},
-  loading: false,
-  disable: false,
-  variant: 'primary',
-  size: 'md',
-  type: 'button',
 };
 
 Button.propTypes = {

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader matches snapshot 1`] = `
+<div
+  aria-live="polite"
+  class="inline-flex items-center justify-center"
+  role="status"
+>
+  <div
+    class="
+          animate-spin rounded-full border-4 
+          border-gray-200
+          border-t-primary
+          w-8 h-8
+        "
+  />
+  <span
+    class="sr-only"
+    role="status"
+  >
+    Loading...
+  </span>
+</div>
+`;

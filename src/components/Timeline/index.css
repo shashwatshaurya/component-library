@@ -1,0 +1,15 @@
+.timeline-item {
+  padding: 1rem;
+  position: relative;
+}
+
+.icon-container {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column !important;
+  }
+}

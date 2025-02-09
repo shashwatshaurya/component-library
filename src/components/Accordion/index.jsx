@@ -3,7 +3,15 @@ import PropTypes from 'prop-types';
 import { FaChevronDown } from 'react-icons/fa';
 
 const AccordionItem = memo(
-  ({ item, index, isOpen, onToggle, icon, iconClass, fontSize }) => (
+  ({
+    item,
+    index,
+    isOpen,
+    onToggle,
+    icon = <FaChevronDown className="text-secondary-500" />,
+    iconClass = '',
+    fontSize,
+  }) => (
     <div className="width-full py-4">
       <button
         className={`w-full flex justify-between items-center border-b shadow-sm border-gray-200 p-2 mb-3 cursor-pointer focus:outline-none`}
@@ -74,11 +82,6 @@ const Accordion = ({
       ))}
     </div>
   );
-};
-
-AccordionItem.defaultProps = {
-  icon: <FaChevronDown className="text-secondary-500" />,
-  iconClass: '',
 };
 
 AccordionItem.propTypes = {

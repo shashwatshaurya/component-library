@@ -23,6 +23,7 @@
 I am planning to use tailwind for css, rollup for bundling, storybook and writing unit test cases in jest.
 I want my component to be a11y compliant.
 I also want my component library to be able to accept themes during build/runtime.
+Try to make this usable on both client and server side
 
 # Keypoints
 
