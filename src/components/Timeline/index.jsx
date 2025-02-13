@@ -88,7 +88,7 @@ const TimelineItem = ({
           ref={contentContainerRef}
           className={`timeline-content flex-grow ${alignment === 'horizontal' ? 'text-center' : ''}`}
         >
-          <h3 className="font-bold">{title}</h3>
+          <h3 className="font-bold pt-2">{title}</h3>
           <p>{content}</p>
         </div>
       </div>
@@ -111,7 +111,7 @@ const TimelineItem = ({
 const Timeline = ({ alignment = 'vertical', timelineItems }) => {
   return (
     <div
-      className={`timeline-container flex ${alignment === 'vertical' ? 'flex-col' : 'flex-row'} gap-6 relative`}
+      className={`timeline-container flex ${alignment === 'vertical' ? 'flex-col' : 'flex-row'} relative`}
     >
       {timelineItems.map((item, index) => {
         return (

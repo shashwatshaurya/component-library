@@ -31,7 +31,7 @@ const timelineItems = [
   },
   {
     id: '2',
-    // icon: <FaClock className="text-yellow-500" />,
+    icon: <FaClock className="text-yellow-500" />,
     title: 'Step 2 In Progress',
     content:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde tenetur nisi animi.',

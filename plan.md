@@ -19,6 +19,8 @@
 17. Shimmer
 18. Timeline
 19. Formbuilder
+20. Folder/Comments
+21. Chip
 
 I am planning to use tailwind for css, rollup for bundling, storybook and writing unit test cases in jest.
 I want my component to be a11y compliant.
