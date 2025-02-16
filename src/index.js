@@ -7,3 +7,5 @@ export { default as Checkbox } from './components/Checkbox/index.jsx';
 export { default as Loader } from './components/Loader/index.jsx';
 export { default as Tooltip } from './components/Tooltip/index.jsx';
 export { default as Card } from './components/Card/index.jsx';
+export { default as Chip } from './components/Chip/index.jsx';
+export { default as Timeline } from './components/Timeline/index.jsx';
